@@ -1,0 +1,12 @@
+{application, web_crawler,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { web_crawler_app, []}},
+  {env, []}
+ ]}.
